@@ -1,5 +1,6 @@
 body {
-margin-top: 0px;
+	
+ margin-top: 0px;
  margin-right: 0px;
  margin-bottom: 0px;
  margin-left: 0px
@@ -191,6 +192,15 @@ body #aboutusone {
 
 }
 
+#volcano3 {
+    margin: 30px auto 0 20%;
+    width: 560px;
+    height: auto;
+    text-indent: 125px;
+    display: block;
+
+}
+
 /* Mount Bromo spewed a column of ash by
 up to 1,2000 meters. */
 
@@ -318,12 +328,39 @@ li {
 }
 
 
+/***************CONTACT PAGE******************/
+
+div .area {
+	width: 400px;
+	margin-left: 35%;
+	margin-bottom: 115px;
+	margin-top: 70px;
+}
+
+#email {
+  width: 100%;
+  height: 0px;
+  
+}
 
 
+textarea {
+  width: 100%;
+  height: 150px;
+}
 
+#submit {
+	margin-left: 35%;
+	
+}
 
-
-
+#rightsReserved {
+	color: grey;
+	font-size: 12px;
+	position: relative;
+	bottom: -306px;
+	right: -140px;
+}
 
 
 
@@ -541,6 +578,7 @@ li {
 
 #paragraphInAbout {
     position: relative;
+	margin-bottom: 110px;
     margin-left: 35%;
     text-align: center;
     width: 450px;
@@ -609,3 +647,6 @@ input[type=submit]:hover {
 }
 
 
+.mountBromoAttractions {
+	margin-left: 40.5%;
+}
